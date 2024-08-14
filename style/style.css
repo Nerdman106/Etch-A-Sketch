@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    height: 95vh;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20px;
+    flex-grow: 1;
+}
+
+.squares{
+    flex-basis: 20px;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+/* .squares:hover{
+    background-color: beige;
+} */
